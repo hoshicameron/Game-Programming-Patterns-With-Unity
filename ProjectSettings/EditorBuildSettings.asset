@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/GPP/Scenes/Init.unity
+    guid: 2e8c91944e2e871408756013ec815cfd
+  - enabled: 1
+    path: Assets/GPP/Scenes/Init 1.unity
+    guid: a5dcd13f81250904cbc97ed72ac465e3
+  - enabled: 1
+    path: Assets/GPP/Scenes/Init 2.unity
+    guid: 2d266d79ed78c784d96c762418f8e1b0
+  - enabled: 1
+    path: Assets/GPP/Scenes/Init 3.unity
+    guid: 8c06d0fcf5e7de74dbfe8acb9fafadb5
   m_configObjects: {}
