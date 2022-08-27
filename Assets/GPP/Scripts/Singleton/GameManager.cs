@@ -40,6 +40,5 @@ namespace GameProgrammingPattern.Singleton
             }
         }
 
-
     }//Class
 }// Namespace

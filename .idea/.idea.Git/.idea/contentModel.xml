@@ -10,6 +10,16 @@
               <e p="GameManager.cs" t="Include" />
               <e p="Singleton.cs" t="Include" />
             </e>
+            <e p="StatePatern" t="Include">
+              <e p="BikeController.cs" t="Include" />
+              <e p="BikeStartState.cs" t="Include" />
+              <e p="BikeStateContext.cs" t="Include" />
+              <e p="BikeStopState.cs" t="Include" />
+              <e p="BikeTurnState.cs" t="Include" />
+              <e p="ClientState.cs" t="Include" />
+              <e p="Direction.cs" t="Include" />
+              <e p="IBikeState.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>

@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a628c372-c5e0-4ee1-8316-64542d5f20fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStartState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStartState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStopState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStopState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeTurnState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeTurnState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/ClientState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/ClientState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/Direction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/Direction.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Git/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Git/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Git/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Git/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scenes/Init 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scenes/Init 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scenes/Init 2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scenes/Init 2.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scenes/Init 3.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scenes/Init 3.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Singleton/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Singleton/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,20 +53,131 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Singleton/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="277">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
-                <marker date="1661607328994" expanded="true" signature="6:107" ph="..." />
-                <marker date="1661607328994" expanded="true" signature="151:1225" ph="{...}" />
-                <marker date="1661607328994" expanded="true" signature="207:1216" ph="{...}" />
-                <marker date="1661607328994" expanded="true" signature="322:649" ph="{...}" />
-                <marker date="1661607328994" expanded="true" signature="336:511" ph="/* TODO: ... */" />
-                <marker date="1661607328994" expanded="true" signature="684:1003" ph="{...}" />
-                <marker date="1661607328994" expanded="true" signature="1026:1208" ph="{...}" />
-                <marker date="1661607328994" expanded="true" signature="1076:1198" ph="{...}" />
+                <marker date="1661608643886" expanded="true" signature="6:107" ph="..." />
+                <marker date="1661608643886" expanded="true" signature="151:1224" ph="{...}" />
+                <marker date="1661608643886" expanded="true" signature="207:1215" ph="{...}" />
+                <marker date="1661608643886" expanded="true" signature="322:649" ph="{...}" />
+                <marker date="1661608643886" expanded="true" signature="336:511" ph="/* TODO: ... */" />
+                <marker date="1661608643886" expanded="true" signature="684:1003" ph="{...}" />
+                <marker date="1661608643886" expanded="true" signature="1026:1208" ph="{...}" />
+                <marker date="1661608643886" expanded="true" signature="1076:1198" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/IBikeState.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding>
+                <marker date="1661612137752" expanded="false" signature="6:78" ph="..." />
+                <marker date="1661612137752" expanded="true" signature="124:224" ph="{...}" />
+                <marker date="1661612137752" expanded="true" signature="158:222" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStateContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+              <folding>
+                <marker date="1661612369394" expanded="false" signature="6:78" ph="..." />
+                <marker date="1661612369394" expanded="true" signature="124:701" ph="{...}" />
+                <marker date="1661612369394" expanded="true" signature="160:699" ph="{...}" />
+                <marker date="1661612369394" expanded="true" signature="205:247" ph="{...}" />
+                <marker date="1661612369394" expanded="true" signature="369:435" ph="{...}" />
+                <marker date="1661612369394" expanded="true" signature="469:539" ph="{...}" />
+                <marker date="1661612369394" expanded="true" signature="589:693" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <folding>
+                <marker date="1661612842360" expanded="true" signature="64:1256" ph="{...}" />
+                <marker date="1661612842360" expanded="true" signature="112:1254" ph="{...}" />
+                <marker date="1661612842360" expanded="true" signature="295:336" ph="{...}" />
+                <marker date="1661612842360" expanded="true" signature="497:891" ph="{...}" />
+                <marker date="1661612842360" expanded="true" signature="925:991" ph="{...}" />
+                <marker date="1661612842360" expanded="true" signature="1024:1089" ph="{...}" />
+                <marker date="1661612842360" expanded="true" signature="1137:1248" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/ClientState.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-24">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <marker date="1661613778347" expanded="true" signature="64:776" ph="{...}" />
+                <marker date="1661613778347" expanded="true" signature="109:766" ph="{...}" />
+                <marker date="1661613778347" expanded="true" signature="185:326" ph="{...}" />
+                <marker date="1661613778347" expanded="true" signature="348:759" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeTurnState.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding>
+                <marker date="1661613621268" expanded="true" signature="64:680" ph="{...}" />
+                <marker date="1661613621268" expanded="true" signature="122:678" ph="{...}" />
+                <marker date="1661613621268" expanded="true" signature="275:672" ph="{...}" />
+                <marker date="1661613621268" expanded="true" signature="514:662" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStartState.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-110">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding>
+                <marker date="1661613491559" expanded="true" signature="64:825" ph="{...}" />
+                <marker date="1661613491559" expanded="true" signature="123:823" ph="{...}" />
+                <marker date="1661613491559" expanded="true" signature="236:417" ph="{...}" />
+                <marker date="1661613491559" expanded="true" signature="440:817" ph="{...}" />
+                <marker date="1661613491559" expanded="true" signature="483:807" ph="{...}" />
+                <marker date="1661613491559" expanded="true" signature="551:793" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStopState.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+              <folding>
+                <marker date="1661613050585" expanded="true" signature="64:400" ph="{...}" />
+                <marker date="1661613050585" expanded="true" signature="122:398" ph="{...}" />
+                <marker date="1661613050585" expanded="true" signature="234:392" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -58,13 +190,29 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Singleton/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStartState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Singleton/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/IBikeState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeTurnState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/ClientState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStopState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStateContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/Direction.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/GPP/Scripts/Singleton/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/GPP/Scripts/Singleton/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStateContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/Direction.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/IBikeState.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStopState.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStartState.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeTurnState.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/ClientState.cs" />
       </list>
     </option>
   </component>
@@ -85,6 +233,33 @@
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="GPP" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="GPP" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="GPP" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="StatePatern" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
@@ -134,12 +309,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661605955279</updated>
-      <workItem from="1661605966418" duration="1342000" />
+      <workItem from="1661605966418" duration="6827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1342000" />
+    <option name="totallyTimeSpent" value="6827000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -154,50 +329,20 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" order="0" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" order="2" />
-      <window_info anchor="bottom" id="Unit Tests" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.24962178" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="1" />
+      <window_info anchor="bottom" id="Unit Tests" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Performance Profiler" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
       <window_info anchor="bottom" id="Run" order="11" />
@@ -205,10 +350,40 @@
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
       <window_info anchor="right" id="Unit Tests Coverage" order="1" />
-      <window_info anchor="right" id="Errors In Solution" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="1" />
+      <window_info anchor="bottom" id="Unit Tests" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Performance Profiler" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="8" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
@@ -250,17 +425,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Singleton/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="277">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
-            <marker date="1661607328994" expanded="true" signature="6:107" ph="..." />
-            <marker date="1661607328994" expanded="true" signature="151:1225" ph="{...}" />
-            <marker date="1661607328994" expanded="true" signature="207:1216" ph="{...}" />
-            <marker date="1661607328994" expanded="true" signature="322:649" ph="{...}" />
-            <marker date="1661607328994" expanded="true" signature="336:511" ph="/* TODO: ... */" />
-            <marker date="1661607328994" expanded="true" signature="684:1003" ph="{...}" />
-            <marker date="1661607328994" expanded="true" signature="1026:1208" ph="{...}" />
-            <marker date="1661607328994" expanded="true" signature="1076:1198" ph="{...}" />
+            <marker date="1661608643886" expanded="true" signature="6:107" ph="..." />
+            <marker date="1661608643886" expanded="true" signature="151:1224" ph="{...}" />
+            <marker date="1661608643886" expanded="true" signature="207:1215" ph="{...}" />
+            <marker date="1661608643886" expanded="true" signature="322:649" ph="{...}" />
+            <marker date="1661608643886" expanded="true" signature="336:511" ph="/* TODO: ... */" />
+            <marker date="1661608643886" expanded="true" signature="684:1003" ph="{...}" />
+            <marker date="1661608643886" expanded="true" signature="1026:1208" ph="{...}" />
+            <marker date="1661608643886" expanded="true" signature="1076:1198" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/IBikeState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <marker date="1661612137752" expanded="false" signature="6:78" ph="..." />
+            <marker date="1661612137752" expanded="true" signature="124:224" ph="{...}" />
+            <marker date="1661612137752" expanded="true" signature="158:222" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/Direction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <marker date="1661612598882" expanded="true" signature="44:123" ph="{...}" />
+            <marker date="1661612598882" expanded="true" signature="72:121" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStopState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <marker date="1661613050585" expanded="true" signature="64:400" ph="{...}" />
+            <marker date="1661613050585" expanded="true" signature="122:398" ph="{...}" />
+            <marker date="1661613050585" expanded="true" signature="234:392" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeTurnState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <marker date="1661613621268" expanded="true" signature="64:680" ph="{...}" />
+            <marker date="1661613621268" expanded="true" signature="122:678" ph="{...}" />
+            <marker date="1661613621268" expanded="true" signature="275:672" ph="{...}" />
+            <marker date="1661613621268" expanded="true" signature="514:662" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/ClientState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <marker date="1661613778347" expanded="true" signature="64:776" ph="{...}" />
+            <marker date="1661613778347" expanded="true" signature="109:766" ph="{...}" />
+            <marker date="1661613778347" expanded="true" signature="185:326" ph="{...}" />
+            <marker date="1661613778347" expanded="true" signature="348:759" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStateContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <marker date="1661612369394" expanded="false" signature="6:78" ph="..." />
+            <marker date="1661612369394" expanded="true" signature="124:701" ph="{...}" />
+            <marker date="1661612369394" expanded="true" signature="160:699" ph="{...}" />
+            <marker date="1661612369394" expanded="true" signature="205:247" ph="{...}" />
+            <marker date="1661612369394" expanded="true" signature="369:435" ph="{...}" />
+            <marker date="1661612369394" expanded="true" signature="469:539" ph="{...}" />
+            <marker date="1661612369394" expanded="true" signature="589:693" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <marker date="1661612842360" expanded="true" signature="64:1256" ph="{...}" />
+            <marker date="1661612842360" expanded="true" signature="112:1254" ph="{...}" />
+            <marker date="1661612842360" expanded="true" signature="295:336" ph="{...}" />
+            <marker date="1661612842360" expanded="true" signature="497:891" ph="{...}" />
+            <marker date="1661612842360" expanded="true" signature="925:991" ph="{...}" />
+            <marker date="1661612842360" expanded="true" signature="1024:1089" ph="{...}" />
+            <marker date="1661612842360" expanded="true" signature="1137:1248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStartState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1661613491559" expanded="true" signature="64:825" ph="{...}" />
+            <marker date="1661613491559" expanded="true" signature="123:823" ph="{...}" />
+            <marker date="1661613491559" expanded="true" signature="236:417" ph="{...}" />
+            <marker date="1661613491559" expanded="true" signature="440:817" ph="{...}" />
+            <marker date="1661613491559" expanded="true" signature="483:807" ph="{...}" />
+            <marker date="1661613491559" expanded="true" signature="551:793" ph="{...}" />
           </folding>
         </state>
       </provider>
