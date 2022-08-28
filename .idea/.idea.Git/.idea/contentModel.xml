@@ -6,6 +6,14 @@
       <e p="Assets" t="Include">
         <e p="GPP" t="Include">
           <e p="Scripts" t="Include">
+            <e p="EventBus" t="Include">
+              <e p="BikeController.cs" t="Include" />
+              <e p="ClientEventBus.cs" t="Include" />
+              <e p="CountdownTimer.cs" t="Include" />
+              <e p="HUDController.cs" t="Include" />
+              <e p="RaceEventBus.cs" t="Include" />
+              <e p="RaceEventType.cs" t="Include" />
+            </e>
             <e p="Singleton" t="Include">
               <e p="GameManager.cs" t="Include" />
               <e p="Singleton.cs" t="Include" />
