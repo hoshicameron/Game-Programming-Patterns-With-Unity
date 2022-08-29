@@ -6,7 +6,7 @@ namespace GameProgrammingPattern.ObjectPool
 {
     public class Drone : MonoBehaviour
     {
-        public IObjectPool<Drone> Pool { get; set; }
+        //public IObjectPool<Drone> Pool { get; set; }
 
         public float _currentHealth;
 
@@ -40,7 +40,7 @@ namespace GameProgrammingPattern.ObjectPool
 
         private void ReturnToPool()
         {
-            Pool.Release(this);
+            //Pool.Release(this);
         }
 
         private void ResetDrone()

@@ -28,6 +28,14 @@
               <e p="Drone.cs" t="Include" />
               <e p="DroneObjectPool.cs" t="Include" />
             </e>
+            <e p="Observer" t="Include">
+              <e p="BikeController.cs" t="Include" />
+              <e p="CameraController.cs" t="Include" />
+              <e p="ClientObserver.cs" t="Include" />
+              <e p="HUDController.cs" t="Include" />
+              <e p="Observer.cs" t="Include" />
+              <e p="Subject.cs" t="Include" />
+            </e>
             <e p="Singleton" t="Include">
               <e p="GameManager.cs" t="Include" />
               <e p="Singleton.cs" t="Include" />

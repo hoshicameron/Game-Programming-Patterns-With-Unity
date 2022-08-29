@@ -7,7 +7,7 @@ namespace GameProgrammingPattern.ObjectPool
         public int maxPoolSize = 10;
         public int stackDefaultCapacity = 10;
 
-        public IObjectPool<Drone> Pool
+        /*public IObjectPool<Drone> Pool
         {
             get
             {
@@ -25,7 +25,7 @@ namespace GameProgrammingPattern.ObjectPool
             }
         }
 
-        private IObjectPool<Drone> _pool;
+        private IObjectPool<Drone> _pool;*/
 
         private Drone CreatedPooledItem()
         {
@@ -35,7 +35,7 @@ namespace GameProgrammingPattern.ObjectPool
             Drone drone = go.AddComponent<Drone>();
 
             go.name = "Drone";
-            drone.Pool = Pool;
+            //drone.Pool = Pool;
 
             return drone;
         }
@@ -61,10 +61,10 @@ namespace GameProgrammingPattern.ObjectPool
 
             for (int i = 0; i < amount; ++i)
             {
-                var drone = Pool.Get();
+                //var drone = Pool.Get();
 
-                drone.transform.position =
-                    Random.insideUnitSphere * 10;
+                /*drone.transform.position =
+                    Random.insideUnitSphere * 10;*/
             }
         }
 
