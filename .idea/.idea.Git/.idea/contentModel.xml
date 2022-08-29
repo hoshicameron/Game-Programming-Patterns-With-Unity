@@ -6,6 +6,15 @@
       <e p="Assets" t="Include">
         <e p="GPP" t="Include">
           <e p="Scripts" t="Include">
+            <e p="Command Pattern" t="Include">
+              <e p="BikeController.cs" t="Include" />
+              <e p="Command.cs" t="Include" />
+              <e p="InputHandler.cs" t="Include" />
+              <e p="Invoker.cs" t="Include" />
+              <e p="ToggleTurbo.cs" t="Include" />
+              <e p="TurnLeft.cs" t="Include" />
+              <e p="TurnRight.cs" t="Include" />
+            </e>
             <e p="EventBus" t="Include">
               <e p="BikeController.cs" t="Include" />
               <e p="ClientEventBus.cs" t="Include" />

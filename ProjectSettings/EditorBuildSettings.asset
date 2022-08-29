@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/GPP/Scenes/Init.unity
+    path: Assets/GPP/Scenes/Singletone.unity
     guid: 2e8c91944e2e871408756013ec815cfd
   - enabled: 1
     path: Assets/GPP/Scenes/Init 1.unity
