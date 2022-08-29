@@ -23,6 +23,11 @@
               <e p="RaceEventBus.cs" t="Include" />
               <e p="RaceEventType.cs" t="Include" />
             </e>
+            <e p="ObjectPool" t="Include">
+              <e p="ClientObjectPool.cs" t="Include" />
+              <e p="Drone.cs" t="Include" />
+              <e p="DroneObjectPool.cs" t="Include" />
+            </e>
             <e p="Singleton" t="Include">
               <e p="GameManager.cs" t="Include" />
               <e p="Singleton.cs" t="Include" />
