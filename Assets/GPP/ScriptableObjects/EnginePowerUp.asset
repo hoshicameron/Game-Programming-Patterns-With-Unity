@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d92e759f13a5429aa8dfd8bd9599ab71, type: 3}
+  m_Name: EnginePowerUp
+  m_EditorClassIdentifier: 
+  powerupName: Engine Boost
+  powerupPrefab: {fileID: 7165637006311915405, guid: dc5e5a8aa90fa594eb22f2605f275eb0, type: 3}
+  powerupDescription: Upgrade Bike Engine Capacity
+  healShield: 0
+  turboBoost: 25.9
+  weaponRange: 0
+  weaponStrength: 0

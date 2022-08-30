@@ -50,6 +50,17 @@
               <e p="Direction.cs" t="Include" />
               <e p="IBikeState.cs" t="Include" />
             </e>
+            <e p="Visitor" t="Include">
+              <e p="BikeController.cs" t="Include" />
+              <e p="BikeEngine.cs" t="Include" />
+              <e p="BikeShield.cs" t="Include" />
+              <e p="BikeWeapon.cs" t="Include" />
+              <e p="ClientVisitor.cs" t="Include" />
+              <e p="IBikeElement.cs" t="Include" />
+              <e p="IVisitor.cs" t="Include" />
+              <e p="Pickup.cs" t="Include" />
+              <e p="PowerUp.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>
