@@ -2,27 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a628c372-c5e0-4ee1-8316-64542d5f20fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeEngine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeEngine.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeShield.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeShield.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeWeapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeWeapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/ClientVisitor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/ClientVisitor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IBikeElement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IBikeElement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IVisitor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IVisitor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/Pickup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/Pickup.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/PowerUp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/PowerUp.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/BoppingManeuver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/BoppingManeuver.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/ClientStrategy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/ClientStrategy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/Drone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/Drone.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/FallbackManeuver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/FallbackManeuver.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/IManeuverBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/IManeuverBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/WeavingManeuver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/WeavingManeuver.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Git/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Git/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Git/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Git/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scenes/VisitorPattern.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPP/Scenes/VisitorPattern.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/EventBus.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/BikeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/BikeController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/ClientEventBus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/ClientEventBus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/CountdownTimer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/CountdownTimer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/HUDController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/HUDController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/RaceEventBus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/RaceEventBus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/RaceEventType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/RaceEventType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Observer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Observer/BikeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Observer/BikeController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Observer/CameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Observer/CameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Observer/ClientObserver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Observer/ClientObserver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Observer/HUDController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Observer/HUDController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Observer/Observer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Observer/Observer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Observer/Subject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Observer/Subject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeEngine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeEngine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeShield.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeShield.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeWeapon.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeWeapon.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/ClientVisitor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/ClientVisitor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IBikeElement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IBikeElement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IVisitor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IVisitor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/Pickup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/Pickup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/PowerUp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/PowerUp.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,138 +88,101 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IVisitor.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/IManeuverBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            <state>
+              <caret column="41" selection-start-column="41" selection-end-column="41" />
               <folding>
-                <marker date="1661787632417" expanded="true" signature="40:215" ph="{...}" />
-                <marker date="1661787632417" expanded="true" signature="72:213" ph="{...}" />
+                <marker date="1661867252903" expanded="true" signature="41:158" ph="{...}" />
+                <marker date="1661867252903" expanded="true" signature="108:156" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IBikeElement.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/BoppingManeuver.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="453">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
               <folding>
-                <marker date="1661787805808" expanded="true" signature="40:129" ph="{...}" />
-                <marker date="1661787805808" expanded="true" signature="76:127" ph="{...}" />
+                <marker date="1661869590929" expanded="true" signature="6:44" ph="..." />
+                <marker date="1661869590929" expanded="true" signature="87:1193" ph="{...}" />
+                <marker date="1661869590929" expanded="true" signature="158:1184" ph="{...}" />
+                <marker date="1661869590929" expanded="true" signature="207:270" ph="{...}" />
+                <marker date="1661869590929" expanded="true" signature="311:1178" ph="{...}" />
+                <marker date="1661869590929" expanded="true" signature="602:1168" ph="{...}" />
+                <marker date="1661869590929" expanded="true" signature="831:1061" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/PowerUp.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/WeavingManeuver.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-863">
-              <caret line="5" column="54" lean-forward="true" selection-start-line="4" selection-start-column="66" selection-end-line="5" selection-end-column="54" />
+            <state relative-caret-position="299">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding>
-                <marker date="1661788241057" expanded="true" signature="60:1927" ph="{...}" />
-                <marker date="1661788241057" expanded="true" signature="184:1917" ph="{...}" />
-                <marker date="1661788241057" expanded="true" signature="826:918" ph="{...}" />
-                <marker date="1661788241057" expanded="true" signature="968:1582" ph="{...}" />
-                <marker date="1661788241057" expanded="true" signature="1632:1910" ph="{...}" />
+                <marker date="1661869505107" expanded="true" signature="6:44" ph="..." />
+                <marker date="1661869505107" expanded="true" signature="87:1178" ph="{...}" />
+                <marker date="1661869505107" expanded="true" signature="157:1168" ph="{...}" />
+                <marker date="1661869505107" expanded="true" signature="206:268" ph="{...}" />
+                <marker date="1661869505107" expanded="true" signature="308:1162" ph="{...}" />
+                <marker date="1661869505107" expanded="true" signature="605:1152" ph="{...}" />
+                <marker date="1661869505107" expanded="true" signature="813:1045" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeController.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/FallbackManeuver.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
+            <state relative-caret-position="453">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
-                <marker date="1661788440439" expanded="false" signature="6:52" ph="..." />
-                <marker date="1661788440439" expanded="true" signature="94:702" ph="{...}" />
-                <marker date="1661788440439" expanded="true" signature="157:693" ph="{...}" />
-                <marker date="1661788440439" expanded="true" signature="261:491" ph="{...}" />
-                <marker date="1661788440439" expanded="true" signature="537:686" ph="{...}" />
-                <marker date="1661788440439" expanded="true" signature="607:676" ph="{...}" />
+                <marker date="1661869591157" expanded="true" signature="6:44" ph="..." />
+                <marker date="1661869591157" expanded="true" signature="87:863" ph="{...}" />
+                <marker date="1661869591157" expanded="true" signature="158:854" ph="{...}" />
+                <marker date="1661869591157" expanded="true" signature="207:272" ph="{...}" />
+                <marker date="1661869591157" expanded="true" signature="315:848" ph="{...}" />
+                <marker date="1661869591157" expanded="true" signature="589:838" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeWeapon.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/Drone.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="431">
+              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
               <folding>
-                <marker date="1661788730880" expanded="true" signature="60:841" ph="{...}" />
-                <marker date="1661788730880" expanded="true" signature="120:831" ph="{...}" />
-                <marker date="1661788730880" expanded="true" signature="356:416" ph="{...}" />
-                <marker date="1661788730880" expanded="true" signature="462:515" ph="{...}" />
-                <marker date="1661788730880" expanded="true" signature="538:825" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeEngine.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-              <folding>
-                <marker date="1661788919277" expanded="true" signature="60:927" ph="{...}" />
-                <marker date="1661788919277" expanded="true" signature="120:925" ph="{...}" />
-                <marker date="1661788919277" expanded="true" signature="341:531" ph="{...}" />
-                <marker date="1661788919277" expanded="true" signature="367:521" ph="{...}" />
-                <marker date="1661788919277" expanded="true" signature="566:624" ph="{...}" />
-                <marker date="1661788919277" expanded="true" signature="670:723" ph="{...}" />
-                <marker date="1661788919277" expanded="true" signature="746:919" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeShield.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-              <folding>
-                <marker date="1661789070294" expanded="true" signature="60:598" ph="{...}" />
-                <marker date="1661789070294" expanded="true" signature="120:596" ph="{...}" />
-                <marker date="1661789070294" expanded="true" signature="221:298" ph="{...}" />
-                <marker date="1661789070294" expanded="true" signature="344:397" ph="{...}" />
-                <marker date="1661789070294" expanded="true" signature="420:590" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/ClientVisitor.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-37">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <marker date="1661789190152" expanded="true" signature="60:804" ph="{...}" />
-                <marker date="1661789190152" expanded="true" signature="109:802" ph="{...}" />
-                <marker date="1661789190152" expanded="true" signature="300:431" ph="{...}" />
-                <marker date="1661789190152" expanded="true" signature="453:796" ph="{...}" />
+                <marker date="1661869524840" expanded="true" signature="62:1348" ph="{...}" />
+                <marker date="1661869524840" expanded="true" signature="143:1338" ph="{...}" />
+                <marker date="1661869524840" expanded="true" signature="554:775" ph="{...}" />
+                <marker date="1661869524840" expanded="true" signature="839:896" ph="{...}" />
+                <marker date="1661869524840" expanded="true" signature="919:1332" ph="{...}" />
+                <marker date="1661869524840" expanded="true" signature="1116:1322" ph="{...}" />
+                <marker date="1661869524840" expanded="true" signature="1165:1308" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/Pickup.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/ClientStrategy.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state>
               <folding>
-                <marker date="1661790673102" expanded="true" signature="60:408" ph="{...}" />
-                <marker date="1661790673102" expanded="true" signature="100:406" ph="{...}" />
-                <marker date="1661790673102" expanded="true" signature="191:400" ph="{...}" />
-                <marker date="1661790673102" expanded="true" signature="255:390" ph="{...}" />
+                <marker date="1661869569005" expanded="true" signature="6:52" ph="..." />
+                <marker date="1661869569005" expanded="true" signature="95:1136" ph="{...}" />
+                <marker date="1661869569005" expanded="true" signature="145:1134" ph="{...}" />
+                <marker date="1661869569005" expanded="true" signature="308:549" ph="{...}" />
+                <marker date="1661869569005" expanded="true" signature="595:979" ph="{...}" />
+                <marker date="1661869569005" expanded="true" signature="1001:1128" ph="{...}" />
+                <marker date="1661869569005" expanded="true" signature="1060:1118" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -199,46 +202,31 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStartState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Observer/ClientObserver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/ClientState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Command Pattern/ToggleTurbo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IVisitor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Observer/BikeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStopState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/ObjectPool/Drone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeStateContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/Drone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Singleton/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/HUDController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/FallbackManeuver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeTurnState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Command Pattern/Command.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Command Pattern/BikeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Command Pattern/Invoker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/RaceEventBus.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/BikeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/Pickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/ObjectPool/ClientObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Singleton/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/ClientEventBus.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/ObjectPool/DroneObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Observer/Observer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Observer/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/IManeuverBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Command Pattern/TurnRight.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/BikeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/WeavingManeuver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/Direction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/StatePatern/IBikeState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Observer/HUDController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/ClientVisitor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Command Pattern/TurnLeft.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Observer/Subject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/CountdownTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IBikeElement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/EventBus/RaceEventType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/BoppingManeuver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Command Pattern/InputHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeShield.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/ClientStrategy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -285,6 +273,12 @@
         <option value="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeShield.cs" />
         <option value="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/ClientVisitor.cs" />
         <option value="$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/Pickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/IManeuverBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/Drone.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/BoppingManeuver.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/WeavingManeuver.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/FallbackManeuver.cs" />
+        <option value="$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/ClientStrategy.cs" />
       </list>
     </option>
   </component>
@@ -337,7 +331,7 @@
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="GPP" type="1045f7f1:UnityExplorerNode" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Visitor" type="1045f7f1:UnityExplorerNode" />
+              <item name="Strategy Pattern" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -436,12 +430,12 @@
       <workItem from="1661605966418" duration="7134000" />
       <workItem from="1661688483172" duration="8223000" />
       <workItem from="1661756589366" duration="15578000" />
-      <workItem from="1661861544421" duration="583000" />
+      <workItem from="1661861544421" duration="4981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31518000" />
+    <option name="totallyTimeSpent" value="35916000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -995,63 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <marker date="1661788730880" expanded="true" signature="60:841" ph="{...}" />
-            <marker date="1661788730880" expanded="true" signature="120:831" ph="{...}" />
-            <marker date="1661788730880" expanded="true" signature="356:416" ph="{...}" />
-            <marker date="1661788730880" expanded="true" signature="462:515" ph="{...}" />
-            <marker date="1661788730880" expanded="true" signature="538:825" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeShield.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding>
-            <marker date="1661789070294" expanded="true" signature="60:598" ph="{...}" />
-            <marker date="1661789070294" expanded="true" signature="120:596" ph="{...}" />
-            <marker date="1661789070294" expanded="true" signature="221:298" ph="{...}" />
-            <marker date="1661789070294" expanded="true" signature="344:397" ph="{...}" />
-            <marker date="1661789070294" expanded="true" signature="420:590" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/PowerUp.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-863">
-          <caret line="5" column="54" lean-forward="true" selection-start-line="4" selection-start-column="66" selection-end-line="5" selection-end-column="54" />
-          <folding>
-            <marker date="1661788241057" expanded="true" signature="60:1927" ph="{...}" />
-            <marker date="1661788241057" expanded="true" signature="184:1917" ph="{...}" />
-            <marker date="1661788241057" expanded="true" signature="826:918" ph="{...}" />
-            <marker date="1661788241057" expanded="true" signature="968:1582" ph="{...}" />
-            <marker date="1661788241057" expanded="true" signature="1632:1910" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IVisitor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding>
-            <marker date="1661787632417" expanded="true" signature="40:215" ph="{...}" />
-            <marker date="1661787632417" expanded="true" signature="72:213" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IBikeElement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding>
-            <marker date="1661787805808" expanded="true" signature="40:129" ph="{...}" />
-            <marker date="1661787805808" expanded="true" signature="76:127" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,15 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding>
-            <marker date="1661788919277" expanded="true" signature="60:927" ph="{...}" />
-            <marker date="1661788919277" expanded="true" signature="120:925" ph="{...}" />
-            <marker date="1661788919277" expanded="true" signature="341:531" ph="{...}" />
-            <marker date="1661788919277" expanded="true" signature="367:521" ph="{...}" />
-            <marker date="1661788919277" expanded="true" signature="566:624" ph="{...}" />
-            <marker date="1661788919277" expanded="true" signature="670:723" ph="{...}" />
-            <marker date="1661788919277" expanded="true" signature="746:919" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1075,38 +1003,134 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-37">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <marker date="1661789190152" expanded="true" signature="60:804" ph="{...}" />
-            <marker date="1661789190152" expanded="true" signature="109:802" ph="{...}" />
-            <marker date="1661789190152" expanded="true" signature="300:431" ph="{...}" />
-            <marker date="1661789190152" expanded="true" signature="453:796" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <folding>
-            <marker date="1661788440439" expanded="false" signature="6:52" ph="..." />
-            <marker date="1661788440439" expanded="true" signature="94:702" ph="{...}" />
-            <marker date="1661788440439" expanded="true" signature="157:693" ph="{...}" />
-            <marker date="1661788440439" expanded="true" signature="261:491" ph="{...}" />
-            <marker date="1661788440439" expanded="true" signature="537:686" ph="{...}" />
-            <marker date="1661788440439" expanded="true" signature="607:676" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/Pickup.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/PowerUp.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-863">
+          <caret line="5" column="54" lean-forward="true" selection-start-line="4" selection-start-column="66" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IBikeElement.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/IVisitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Visitor/BikeShield.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/IManeuverBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
           <folding>
-            <marker date="1661790673102" expanded="true" signature="60:408" ph="{...}" />
-            <marker date="1661790673102" expanded="true" signature="100:406" ph="{...}" />
-            <marker date="1661790673102" expanded="true" signature="191:400" ph="{...}" />
-            <marker date="1661790673102" expanded="true" signature="255:390" ph="{...}" />
+            <marker date="1661867252903" expanded="true" signature="41:158" ph="{...}" />
+            <marker date="1661867252903" expanded="true" signature="108:156" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/BoppingManeuver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <marker date="1661869590929" expanded="true" signature="6:44" ph="..." />
+            <marker date="1661869590929" expanded="true" signature="87:1193" ph="{...}" />
+            <marker date="1661869590929" expanded="true" signature="158:1184" ph="{...}" />
+            <marker date="1661869590929" expanded="true" signature="207:270" ph="{...}" />
+            <marker date="1661869590929" expanded="true" signature="311:1178" ph="{...}" />
+            <marker date="1661869590929" expanded="true" signature="602:1168" ph="{...}" />
+            <marker date="1661869590929" expanded="true" signature="831:1061" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/WeavingManeuver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <marker date="1661869505107" expanded="true" signature="6:44" ph="..." />
+            <marker date="1661869505107" expanded="true" signature="87:1178" ph="{...}" />
+            <marker date="1661869505107" expanded="true" signature="157:1168" ph="{...}" />
+            <marker date="1661869505107" expanded="true" signature="206:268" ph="{...}" />
+            <marker date="1661869505107" expanded="true" signature="308:1162" ph="{...}" />
+            <marker date="1661869505107" expanded="true" signature="605:1152" ph="{...}" />
+            <marker date="1661869505107" expanded="true" signature="813:1045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/FallbackManeuver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <marker date="1661869591157" expanded="true" signature="6:44" ph="..." />
+            <marker date="1661869591157" expanded="true" signature="87:863" ph="{...}" />
+            <marker date="1661869591157" expanded="true" signature="158:854" ph="{...}" />
+            <marker date="1661869591157" expanded="true" signature="207:272" ph="{...}" />
+            <marker date="1661869591157" expanded="true" signature="315:848" ph="{...}" />
+            <marker date="1661869591157" expanded="true" signature="589:838" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/Drone.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <marker date="1661869524840" expanded="true" signature="62:1348" ph="{...}" />
+            <marker date="1661869524840" expanded="true" signature="143:1338" ph="{...}" />
+            <marker date="1661869524840" expanded="true" signature="554:775" ph="{...}" />
+            <marker date="1661869524840" expanded="true" signature="839:896" ph="{...}" />
+            <marker date="1661869524840" expanded="true" signature="919:1332" ph="{...}" />
+            <marker date="1661869524840" expanded="true" signature="1116:1322" ph="{...}" />
+            <marker date="1661869524840" expanded="true" signature="1165:1308" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GPP/Scripts/Strategy Pattern/ClientStrategy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1661869569005" expanded="true" signature="6:52" ph="..." />
+            <marker date="1661869569005" expanded="true" signature="95:1136" ph="{...}" />
+            <marker date="1661869569005" expanded="true" signature="145:1134" ph="{...}" />
+            <marker date="1661869569005" expanded="true" signature="308:549" ph="{...}" />
+            <marker date="1661869569005" expanded="true" signature="595:979" ph="{...}" />
+            <marker date="1661869569005" expanded="true" signature="1001:1128" ph="{...}" />
+            <marker date="1661869569005" expanded="true" signature="1060:1118" ph="{...}" />
           </folding>
         </state>
       </provider>

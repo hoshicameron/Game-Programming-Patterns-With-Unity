@@ -15,7 +15,7 @@
               <e p="TurnLeft.cs" t="Include" />
               <e p="TurnRight.cs" t="Include" />
             </e>
-            <e p="EventBus" t="Include">
+            <e p="EventBus Pattern" t="Include">
               <e p="BikeController.cs" t="Include" />
               <e p="ClientEventBus.cs" t="Include" />
               <e p="CountdownTimer.cs" t="Include" />
@@ -28,7 +28,7 @@
               <e p="Drone.cs" t="Include" />
               <e p="DroneObjectPool.cs" t="Include" />
             </e>
-            <e p="Observer" t="Include">
+            <e p="Observer Pattern" t="Include">
               <e p="BikeController.cs" t="Include" />
               <e p="CameraController.cs" t="Include" />
               <e p="ClientObserver.cs" t="Include" />
@@ -50,7 +50,15 @@
               <e p="Direction.cs" t="Include" />
               <e p="IBikeState.cs" t="Include" />
             </e>
-            <e p="Visitor" t="Include">
+            <e p="Strategy Pattern" t="Include">
+              <e p="BoppingManeuver.cs" t="Include" />
+              <e p="ClientStrategy.cs" t="Include" />
+              <e p="Drone.cs" t="Include" />
+              <e p="FallbackManeuver.cs" t="Include" />
+              <e p="IManeuverBehaviour.cs" t="Include" />
+              <e p="WeavingManeuver.cs" t="Include" />
+            </e>
+            <e p="Visitor Pattern" t="Include">
               <e p="BikeController.cs" t="Include" />
               <e p="BikeEngine.cs" t="Include" />
               <e p="BikeShield.cs" t="Include" />
