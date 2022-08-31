@@ -15,6 +15,15 @@
               <e p="TurnLeft.cs" t="Include" />
               <e p="TurnRight.cs" t="Include" />
             </e>
+            <e p="Decorator Pattern" t="Include">
+              <e p="BikeWeapon.cs" t="Include" />
+              <e p="ClientDecorator.cs" t="Include" />
+              <e p="IWeapon.cs" t="Include" />
+              <e p="Weapon.cs" t="Include" />
+              <e p="WeaponAttachment.cs" t="Include" />
+              <e p="WeaponConfig.cs" t="Include" />
+              <e p="WeaponDecorator.cs" t="Include" />
+            </e>
             <e p="EventBus Pattern" t="Include">
               <e p="BikeController.cs" t="Include" />
               <e p="ClientEventBus.cs" t="Include" />
